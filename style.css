@@ -56,6 +56,7 @@ body {
     h5,
     h6,
     p {
-        color: white;
+        --bs-emphasis-color: #fff;
+        color: #fff;
     }
 }
