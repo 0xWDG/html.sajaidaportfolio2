@@ -1,0 +1,61 @@
+/* Class: intro */
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+/* Element: p */
+p {
+    display: block;
+    line-height: 2;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Element: body */
+body {
+    color: black;
+    margin: 0;
+    font-family: 'Lora', serif;
+    font-family: 'Merriweather', serif;
+}
+
+/* Class: element-squared */
+.element-squared {
+    border: 10px solid transparent;
+    border-radius: 14px;
+}
+
+/* Class: element-rounded */
+.element-rounded {
+    border: 10px solid transparent;
+    border-radius: 50px;
+}
+
+/* Class: element-circle */
+.element-circle {
+    border: 10px solid transparent;
+    border-radius: 50%;
+}
+
+/* Dark mode style */
+@media (prefers-color-scheme: dark) {
+
+    /* Element: body */
+    body {
+        color: white;
+        background-color: black;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        color: white;
+    }
+}
