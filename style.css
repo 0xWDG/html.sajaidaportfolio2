@@ -1,10 +1,33 @@
 /* Class: intro */
+
+
+.About-me {
+    text-align: center;
+    margin: 10px;
+    font-size: x-large;
+}
+
+
+
+.text {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lora', serif, 'Merriweather', serif;
+
+
+    width: 100%;
+}
+
+
+
 .intro {
     width: 30%;
     margin: auto;
 }
 
+
 /* Element: p */
+
 p {
     display: block;
     line-height: 2;
@@ -14,36 +37,60 @@ p {
     margin-inline-end: 0px;
 }
 
+
 /* Element: body */
+
 body {
     padding: 0;
     margin: 0;
     font-family: 'Lora', serif, 'Merriweather', serif;
-}    
+
+}
+
+h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.pro {
+    text-decoration: underline;
+    color: #6528F7;
+}
+
 
 /* Class: element-squared */
+
 .element-squared {
     border: 10px solid transparent;
     border-radius: 14px;
 }
 
+
 /* Class: element-rounded */
+
 .element-rounded {
     border: 10px solid transparent;
     border-radius: 50px;
 }
 
+
 /* Class: element-circle */
+
 .element-circle {
     border: 10px solid transparent;
     border-radius: 50%;
 }
+
 
 /* Dark mode style */
 @media (prefers-color-scheme: dark) {
 
     /* Element: body */
     body {
+
         color: white;
         background-color: black;
     }
@@ -57,23 +104,81 @@ body {
     p {
         --bs-emphasis-color: #fff;
         color: #fff;
+
     }
 }
+
 
 /* Media query for mobile devices */
 @media (max-width: 480px) {
-    body {
-        /* background: purple; */
-    }
+    body {}
 }
 
-.unusedclass {
-    color: #000;
+.spacer {
+    height: 25px;
+    /* Change this to whatever height you want */
 }
 
-.colorfulday{
-    color: aqua;
+.skills {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    border: 1px solid grey;
+    border-radius: 100px;
+    padding: 0px 70px;
 }
 
-.we-love-git{ color: red; }
-.lol {} 
+.ill {
+    text-decoration: underline;
+    color: #6528F7;
+    font-family: 'Tektur', cursive;
+    font-size: 50px;
+}
+
+
+li {
+    list-style: none;
+}
+
+.tech {
+    font-size: x-large;
+    font-family: 'Ysabeau SC', sans-serif;
+    border: 3px solid transparent;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    /* 
+    flex-wrap: wrap
+    Show flex on a new line if the screen is to small
+
+    flex-wrap: nowrap
+    Show flex next to eachother. (resize)
+    */
+    flex-wrap: nowrap;
+}
+
+.tech>div {
+    /* Center div */
+    margin: auto;
+    /* A nive padding of 50px; */
+    padding: 50px;
+}
+
+.dop1 {
+    border: 2px solid transparent;
+    float: left;
+}
+
+.dop2 {
+    border: 2px solid transparent;
+    float: right;
+}
+
+a>svg {
+    fill: grey;
+}
+
+a:hover>svg {
+    /* Fun color while hovering an svg icon */
+    fill: #6528F7;
+}
