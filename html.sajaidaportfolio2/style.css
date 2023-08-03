@@ -110,7 +110,6 @@ h2 {
 
 
 /* Media query for mobile devices */
-
 @media (max-width: 480px) {
     body {}
 }
@@ -126,7 +125,7 @@ h2 {
     font-size: 40px;
     border: 1px solid grey;
     border-radius: 100px;
-    padding-right: 70px;
+    padding: 0px 70px;
 }
 
 .ill {
@@ -144,28 +143,35 @@ li {
 .tech {
     font-size: x-large;
     font-family: 'Ysabeau SC', sans-serif;
-    display: flex;
     border: 3px solid transparent;
-    margin-left: 80px;
-    padding: 40px;
-    width: 75%
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    /* 
+    flex-wrap: wrap
+    Show flex on a new line if the screen is to small
+
+    flex-wrap: nowrap
+    Show flex next to eachother. (resize)
+    */
+    flex-wrap: nowrap;
+}
+
+.tech>div {
+    /* Center div */
+    margin: auto;
+    /* A nive padding of 50px; */
+    padding: 50px;
 }
 
 .dop1 {
-    padding: 60px;
-    margin-left: 150px;
-    margin-bottom: 210px;
     border: 2px solid transparent;
     float: left;
 }
 
 .dop2 {
-    padding: 50px;
-    margin-left: 160px;
-    margin-bottom: 200px;
     border: 2px solid transparent;
     float: right;
-
 }
 
 a>svg {
