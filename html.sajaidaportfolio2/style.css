@@ -137,11 +137,9 @@ h2 {
 }
 
 
-
 li {
     list-style: none;
 }
-
 
 .tech {
     font-size: x-large;
@@ -154,17 +152,14 @@ li {
 }
 
 .dop1 {
-
     padding: 60px;
     margin-left: 150px;
     margin-bottom: 210px;
     border: 2px solid transparent;
     float: left;
-
 }
 
 .dop2 {
-
     padding: 50px;
     margin-left: 160px;
     margin-bottom: 200px;
