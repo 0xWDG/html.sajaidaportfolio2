@@ -86,10 +86,11 @@ h2{
 
 
 /* Dark mode style */
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark)  {
 
     /* Element: body */
     body {
+       
         color: white;
         background-color: black;
     }
@@ -139,9 +140,10 @@ h2{
 .skills{
     text-align: center;
     margin-top: 60px;
-    padding: 10px;
-    font-weight: 200px;
-    font-size: 50px;
+    font-size: 40px;
+    border: 1px solid grey;
+    border-radius: 100px;
+    padding-right: 70px;
     
     
   
@@ -151,21 +153,45 @@ h2{
    text-decoration:underline;
    color: #6528F7;
    font-family:'Tektur', cursive;;
-   font-size: xx-large;
-}
+   font-size: 50px;
+} 
 
-.tech{
-    display: flex;
-    text-align: center;
-    gap: 10rem;
-   flex-direction: column;
-    
-}
+
+
 li{
     list-style: none;
 }
 
 
+.tech{
+    font-size: x-large;
+    font-family: 'Ysabeau SC', sans-serif;
+    display: flex;
+    border: 3px solid transparent;
+    margin-left: 80px;   padding:40px;
+    width:75%
+    
+}
+
+.dop1{ 
+
+    padding: 60px;
+    margin-left: 150px;
+    margin-bottom: 210px;
+    border: 2px solid transparent;
+    float: left;
+   
+}
+   
+.dop2{
+   
+    padding: 50px;
+    margin-left: 160px;
+    margin-bottom: 200px;
+    border: 2px solid transparent;
+    float: right;
+
+}
 
 
 
